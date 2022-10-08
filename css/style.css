@@ -48,6 +48,9 @@ hr{
   top: 50px;
 }
 
+.mountain{
+margin: auto;
+}
 .bottom-cloud {
   position: absolute;
   left: 300px;
