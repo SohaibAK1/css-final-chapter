@@ -48,9 +48,7 @@ hr{
   top: 50px;
 }
 
-.mountain{
-margin: auto;
-}
+
 .bottom-cloud {
   position: absolute;
   left: 300px;
@@ -78,16 +76,21 @@ margin: auto;
 .css{
   width: 15%;
   float: right;
+  clear: both;
+  margin-right: 15px;
+  
 }
 .java-script{
   width: 10%;
   float: left;
-  margin-right: 10px;
+  margin-right: 15px;
+  clear: both;
 }
 .web-developer{
   width: 15%;
   float: right;
   margin-left: 15px;
+  clear: both;
 }
 
 
