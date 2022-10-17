@@ -24,13 +24,14 @@ h3 {
   color: #11999E;
 }
 
-hr{
+hr {
   border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 6%;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 6%;
 }
+
 .heading {
   background-color: #EAF6F6;
   position: relative;
@@ -48,6 +49,9 @@ hr{
   top: 50px;
 }
 
+.mountain {
+  width: 50%;
+}
 
 .bottom-cloud {
   position: absolute;
@@ -55,39 +59,61 @@ hr{
   bottom: 300px;
 }
 
-.profile-pic{
-  width: 12%;
+.profile-pic {
+  width: 22%;
 
 }
 
 
 
-.skill-row{
-  text-align: left;
-  width: 71%;
-  margin: auto;
-  
+h2.myskills {
+  text-align: center;
 }
-.html{
-  width: 10%;
+
+.html {
+  height: 181px;
+  width: auto;
   float: left;
   margin-right: 15px;
+  /* margin-bottom: 80px; */
 }
-.css{
-  width: 15%;
+
+.html-info {
+  margin-bottom: 80px;
+}
+
+.css {
+  height: 250px;
+  width:auto;
   float: right;
   clear: both;
   margin-right: 15px;
-  
+
 }
-.java-script{
-  width: 10%;
+
+.css-info {
+  margin-bottom: 97px;
+}
+
+.java-script {
+  height: 190px;
+  width: auto;
   float: left;
   margin-right: 15px;
   clear: both;
 }
-.web-developer{
-  width: 15%;
+
+.java-info {
+  margin-bottom: 115px;
+}
+
+.java-info h3 {
+  padding-left: 194px;
+}
+
+.web-developer {
+  height: 265px;
+  width: auto;
   float: right;
   margin-left: 15px;
   clear: both;
@@ -95,12 +121,14 @@ hr{
 
 
 
-.skills{
- 
+.skills {
+  text-align: left;
+  width: 71%;
   margin: auto;
 
 }
-.middle-end{
+
+.middle-end {
   clear: both;
 }
 
@@ -143,14 +171,15 @@ hr{
   top: 30px;
   margin-right: 50px;
 }
-.bottom-container{
+
+.bottom-container {
   background-color: #EAF6F6;
   height: 200px;
   position: relative;
   top: 70px;
 }
 
-.copy-right{
+.copy-right {
   position: relative;
   top: 100px;
 }
